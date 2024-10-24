@@ -9,7 +9,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: [""],
+        origin: ["https://book-store-frontend-khaki.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
