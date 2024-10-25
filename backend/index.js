@@ -7,13 +7,7 @@ import userRoute from "./routes/user_route.js";
 
 const app = express();
 
-app.use(cors(
-    {
-        origin: ["https://book-store-frontend-khaki.vercel.app"],
-        methods: ["POST","GET"],
-        credentials: true
-    }
-));
+app.use(cors();
 app.use(express.json());
 
 dotenv.config(); 
