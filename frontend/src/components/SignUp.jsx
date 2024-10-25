@@ -23,7 +23,7 @@ const SignUp = () => {
       password: data.password,
     };
     await axios
-      .post("book-store-one-delta.vercel.app/user/signup", userInfo)
+      .post("https://bookstore-backend-wch0.onrender.com/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
