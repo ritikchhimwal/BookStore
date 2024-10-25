@@ -16,7 +16,7 @@ const Login = () => {
       password: data.password,
     };
     await axios
-    .post("book-store-one-delta.vercel.app/user/login", userInfo)
+    .post("https://bookstore-backend-wch0.onrender.com/user/login", userInfo)
     .then((res) => {
       console.log(res.data);
       if (res.data) {
