@@ -10,7 +10,7 @@ const Course = () => {
     useEffect(()=>{
         const getBook = async()=>{
             try{
-                const res = await axios.get("book-store-one-delta.vercel.app/book");
+                const res = await axios.get("https://bookstore-backend-wch0.onrender.com/book");
                 console.log(res.data);
                 setBook(res.data);
             }
