@@ -6,11 +6,7 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-      },
-    },
+    extend: {},
   },
   plugins: [
     require('daisyui'),
